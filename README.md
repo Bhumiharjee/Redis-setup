@@ -30,7 +30,7 @@ stages:
 deploy:
   stage: deploy
   tags:
-    - hurry-solv-dev-svc
+    - gitlab-runner
   script:
     - |
       echo "🔄 Updating system packages..."
